@@ -1,6 +1,7 @@
 {
   "name": "vuelah",
-  "version": "0.1.0",
+  "author": "akatcha",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -8,8 +9,12 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "axios": "^0.19.2",
+    "bootstrap-vue": "^2.14.0",
     "core-js": "^3.6.4",
-    "vue": "^2.6.11"
+    "moment": "^2.25.3",
+    "vue": "^2.6.11",
+    "xml2js": "^0.4.23"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.3.0",

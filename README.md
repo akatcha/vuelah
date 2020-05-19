@@ -1,5 +1,7 @@
 # vuelah
 
+Fun little project that I used to become familiar with vue.js as well as experiment with bootstrap and css.
+
 ## Project setup
 ```
 yarn install
