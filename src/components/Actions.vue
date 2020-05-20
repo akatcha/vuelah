@@ -28,7 +28,7 @@
     </div>
 </template>
 <script>
-import Action from "./Actions";
+import Action from "./Action";
 
 export default {
     name: "Actions",

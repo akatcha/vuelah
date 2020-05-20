@@ -26,7 +26,6 @@ export default {
                     .split(" ")
                     .slice(0, -2)
                     .join(" ");
-                console.log(revisedDay);
                 return {
                     date: moment(revisedDay),
                     eventName: event.title[0],
@@ -58,8 +57,6 @@ export default {
 
                 //Draw Month
                 this.drawMonth();
-
-                this.drawLegend();
             };
 
             Calendar.prototype.drawHeader = function() {
@@ -397,8 +394,7 @@ export default {
                 return ele;
             }
 
-            let calendar = new Calendar(this.events);
-            console.log("Calendar: ", calendar);
+            new Calendar(this.events);
         },
     },
     mounted: function() {
@@ -419,9 +415,6 @@ export default {
             })
             .then((data) => this.formatEventsForCalendar(data))
             .then(() => this.calendar());
-
-        // this.calendar();
-        // console.log("Calendar: ", calendar);
     },
 };
 </script>

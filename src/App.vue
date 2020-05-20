@@ -8,7 +8,6 @@
             </div>
             <b-container role="tablist" class="fixed-top actions-tablist">
                 <b-collapse
-                    v-bind:class="{ hidden: isHidden }"
                     class="action-card"
                     id="sailing"
                     accordion="accordian1"
