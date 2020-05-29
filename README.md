@@ -2,6 +2,8 @@
 
 Fun little project that I used to become familiar with vue.js as well as experiment with bootstrap and css.
 
+Demo here! https://akatcha.github.io/vuelah/
+
 ## Project setup
 ```
 yarn install
